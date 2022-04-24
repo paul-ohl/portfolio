@@ -1,7 +1,7 @@
 baseURL = 'https://paulohl.fr/'
 languageCode = 'en-us'
 defaultContentLanguage = "en"
-title = "Paul OHL's portfolio"
+title = "Paul OHL"
 theme = "hermit"
 # enableGitInfo = true
 pygmentsCodefences  = true
@@ -56,25 +56,25 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # Social Icons
   # Check https://github.com/Track3/hermit#social-icons for more info.
   [[params.social]]
-    name = "twitter"
-    url = "https://twitter.com/"
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/paul-ohl-19aaab196/"
 
   [[params.social]]
     name = "instagram"
-    url = "https://instagram.com/"
+    url = "https://www.instagram.com/paul_ohl/"
 
   [[params.social]]
     name = "github"
-    url = "https://github.com/"
+    url = "https://github.com/paul-ohl"
 
 [menu]
 
   [[menu.main]]
-    name = "Posts"
+    name = "Check my projects"
     url = "posts/"
-    weight = 10
+    weight = 20
 
   [[menu.main]]
-    name = "About"
-    url = "about-hugo/"
-    weight = 20
+    name = "Contact me"
+    url = "contact/"
+    weight = 30
