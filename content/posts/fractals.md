@@ -15,6 +15,9 @@ Here are two projects in which I have worked with fractals.
 One in C, the other using [shadertoy](https://shadertoy.com), a website to
 create shaders.
 
+> Check the C project out [on Github](https://github.com/paul-ohl/fract-ol),
+and the shader on [shadertoy](https://www.shadertoy.com/view/sdtXzS)
+
 ## The C fractals
 
 This was a project I had to do for [my school](https://42.fr) called `fract-ol`.

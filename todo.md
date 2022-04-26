@@ -2,13 +2,14 @@
 
 ## Portfolio
 
+- [ ] Add a presentation of me on a sliding panel in the main page
 - [ ] project Fractals!
 	- [ ] Put videos in the fract-ol section
 	- [ ] write a better README.md for [the fract-ol repo](https://github.com/paul-ohl/fract-ol)
-- [ ] Write home-server.md
-- [ ] Write invidious-embedizer.md
-- [ ] Write kriminal-geschichte.md
-- [ ] Write shooter-in-the-dark.md
+- [x] Write home-server.md
+- [x] Write invidious-embedizer.md
+- [x] Write kriminal-geschichte.md
+- [x] Write shooter-in-the-dark.md
 - [ ] Translation in french
 - [x] Write webserv.md
 - [x] Post images show up in listing

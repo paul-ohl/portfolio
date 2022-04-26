@@ -1,5 +1,5 @@
 ---
-title: "Webserv - A home made web server"
+title: "Webserv - A home made HTTP web server"
 date: 2022-03-22
 draft: false
 toc: false
