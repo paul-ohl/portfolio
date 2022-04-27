@@ -1,0 +1,19 @@
+<div {{ with .Get "class" }}class="{{ . }}"{{ end }} class="featured-block">
+	{{ if .Get "img" }}
+	<div class="image-container">
+		<img src="{{ .Get "img" }}" alt="card-image">
+	</div>
+	{{ end }}
+	<div class="text">
+		{{ .Inner | markdownify }}
+	</div>
+	{{ if .Get "rellink" }}
+	<div class="featured-block-link">
+		<a href="{{ relref . (.Get "rellink") }}">More infos ></a>
+	</div>
+	{{ else if .Get "link" }}
+	<div class="featured-block-link">
+		<a href="{{ .Get "link" }}">More infos ></a>
+	</div>
+	{{ end }}
+</div>

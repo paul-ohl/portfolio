@@ -8,7 +8,7 @@ images:
 tags:
   - C++
   - Network
-imagecredit: 'Photo by <a href="https://unsplash.com/@tvick?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Taylor Vick</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
+imagecredit: 'Photo by Taylor Vick on Unsplash'
 ---
 
 ## A ~~home~~ school made web server

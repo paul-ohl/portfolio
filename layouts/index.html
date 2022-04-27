@@ -48,6 +48,11 @@
 	padding-top: 20px;
 	padding-bottom: 70px;
 }
+
+#home-content h2 {
+	padding-top: 20px;
+	clear: both;
+}
 	</style>
 {{ end }}
 
@@ -86,7 +91,7 @@
 	</div>
 	{{- if .Content }}
 	<div id="home-content">
-		<div class="thin">
+		<div class="content thin">
 			{{ .Content }}
 		</div>
 	</div>

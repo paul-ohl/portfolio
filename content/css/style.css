@@ -1,0 +1,32 @@
+.featured-block {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+	height:250px;
+	margin: 10px;
+	position: relative;
+}
+
+.featured-block .text {
+	padding: 5px;
+	padding-left: 260px;
+}
+
+.featured-block .image-container {
+	max-width:250px;
+	height: 100%;
+	overflow: hidden;
+	float: left;
+}
+
+.featured-block .image-container img {
+	max-width: none;
+	height:100%;
+	margin-left: 50%; 
+	transform: translateX(-50%);
+}
+
+.featured-block .featured-block-link {
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	padding: 7px 15px;
+}
