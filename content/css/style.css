@@ -30,3 +30,23 @@
 	position: absolute;
 	padding: 7px 15px;
 }
+
+@media only screen and (max-width: 550px) {
+	.featured-block {
+		height: auto;
+	}
+	.featured-block .image-container {
+		max-width: none;
+		height: 250px;
+		width:100%;
+		float: none;
+	}
+	.featured-block .image-container img {
+		height: auto;
+		width: 100%;
+	}
+	.featured-block .text {
+		padding-left: 5px;
+		padding-bottom: 1.5em;
+	}
+}
