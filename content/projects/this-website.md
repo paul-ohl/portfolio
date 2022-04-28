@@ -10,6 +10,8 @@ tags:
   - Web
 ---
 
+> You can check the code out on [Github](https://github.com/paul-ohl/portfolio).
+
 ## Making this website taught me so much about the web
 
 I had to create a website (more on that later in the article), host it with a
