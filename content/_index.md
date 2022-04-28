@@ -29,12 +29,11 @@ and I am currently a student at [42 Paris](https://42.fr/).
 
 Here are a few of the things I've built!
 
-
 {{< featured-block pagepath="/projects/fractals" >}}
 
-{{< featured-block pagepath="/projects/invidious-embedizer" >}}
+{{< featured-block pagepath="/projects/webserv" >}}
 
-{{< featured-block pagepath="/projects/shooter-in-the-dark" >}}
+{{< featured-block pagepath="/projects/this-website" >}}
 
 You can check all my projects
 [on the project page]({{< relref "/projects/" >}}).
