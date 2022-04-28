@@ -8,7 +8,6 @@ images:
   - images/shooter/shooter-in-the-dark.png
 tags: 
   - Unity
-  - Gaming
 ---
 
 ## Shooter in the dark, my first video game

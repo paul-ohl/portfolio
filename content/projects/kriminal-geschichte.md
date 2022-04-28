@@ -2,12 +2,13 @@
 title: "Kriminal Geschichte"
 date: 2021-04-14
 draft: false
+description: "A murder party with a video game twist!"
 toc: false
 images:
   - images/kg/kg.png
 tags: 
-  - Gaming
   - Unity
+  - Teamwork
 ---
 
 ## Kriminal Geschichte, a murder party with a video game Twist

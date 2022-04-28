@@ -7,10 +7,8 @@
 	- [ ] Put videos in the fract-ol section
 	- [ ] write a better README.md for [the fract-ol repo](https://github.com/paul-ohl/fract-ol)
 - [ ] Translation in french
-- [x] Cards for featured projects!
-	- [ ] not responsive.
-- [ ] Short descriptions of projects shown in list
-- [ ] tags of projects shown in list
+- [x] Short descriptions of projects shown in list
+- [x] tags of projects shown in list
 - [ ] css is in assets and is properly minified
 
 ## Blog posts ideas

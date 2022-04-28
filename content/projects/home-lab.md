@@ -1,7 +1,8 @@
 ---
-title: "My home lab, or how to learn Docker the fun way"
+title: "My home lab"
 date: 2022-04-15
 draft: true
+description: "Let's learn Docker the fun way!"
 toc: false
 images:
 tags: 

@@ -45,6 +45,7 @@
 			<div class="post-year" id="{{ .Key }}">{{ .Key }}</div>
 			<ul class="posts-list">
 				{{- range .Pages }}
+				<a href="{{.Permalink}}">
 				{{ if .Params.featuredImg -}}
 					<li class="post-item parallax" style="background-image: url({{.Params.featuredImg}})">
 				{{- else if .Params.images -}}
@@ -54,11 +55,24 @@
 				{{- else -}}
 					<li class="post-item parallax">
 				{{- end -}}
-					<a href="{{.Permalink}}">
-						<span class="post-title">{{.Title}}</span>
-						<span class="post-day">{{ .Date.Format .Site.Params.dateformShort }}</span>
-					</a>
-				</li>
+						<div class="title-and-date">
+							<span class="post-title">{{.Title}}</span>
+							<span class="post-day">{{ .Date.Format .Site.Params.dateformShort }}</span>
+						</div>
+						<p class="post-description"><i>{{ .Description }}</i></p>
+						{{- with .Params.tags }}
+						<div class="post-info">
+							<p>
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+								{{- range . -}}
+								<!-- <span class="tag"><a href="{{ "tags/" | absLangURL }}{{ . | urlize }}">{{.}}</a></span> -->
+								<span class="tag">{{.}}</span>
+								{{- end }}
+							</p>
+						</div>
+						{{- end }}
+					</li>
+				</a>
 				{{- end }}
 			</ul>
 		</div>
