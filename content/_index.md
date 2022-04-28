@@ -35,5 +35,7 @@ Here are a few of the things I've built!
 
 {{< featured-block pagepath="/projects/this-website" >}}
 
+{{< featured-block pagepath="/projects/shooter-in-the-dark" >}}
+
 You can check all my projects
 [on the project page]({{< relref "/projects/" >}}).
