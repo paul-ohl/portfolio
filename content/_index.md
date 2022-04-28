@@ -30,21 +30,11 @@ and I am currently a student at [42 Paris](https://42.fr/).
 Here are a few of the things I've built!
 
 
-{{< featured-block img="images/fractal.png" side="left" rellink="/projects/fractals" >}}
+{{< featured-block pagepath="/projects/fractals" >}}
 
-### Two fractal generators
+{{< featured-block pagepath="/projects/invidious-embedizer" >}}
 
-One in C, for a school project, and one in HLSL (High-Level Shader Langage) on
-[Shadertoy](https://shadertoy.com).
+{{< featured-block pagepath="/projects/shooter-in-the-dark" >}}
 
-{{< /featured-block >}}
-
-
-{{< featured-block img="images/invidious-embedizer.png" side="right" rellink="/projects/invidious-embedizer" >}}
-
-### A chrome extension to replace content in pages
-
-I needed to replace youtube embeds with [invidious](https://invidious.io) ones,
-so I learned how to create a chrome extension to automate the process.
-
-{{< /featured-block >}}
+You can check all my projects
+[on the project page]({{< relref "/projects/" >}}).

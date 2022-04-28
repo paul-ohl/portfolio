@@ -5,7 +5,8 @@ draft: true
 toc: false
 images:
 tags: 
-  - untagged
+  - Linux
+  - Web
 ---
 
 ## My home lab, or how to learn Docker the fun way

@@ -1,12 +1,14 @@
 ---
-title: "Invidious Embedizer - A Chrome extension"
+title: "Invidious Embedizer"
 date: 2022-04-22
 draft: false
 toc: false
 images:
   - images/invidious-embedizer.png
+description: "A chrome extension to replace youtube embeds in pages."
 tags: 
-  - untagged
+  - Web
+  - JavaScript
 ---
 
 ## Let's teach myself how to create a chrome extension...

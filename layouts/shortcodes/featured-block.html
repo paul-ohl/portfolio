@@ -1,19 +1,32 @@
-<div {{ with .Get "class" }}class="{{ . }}"{{ end }} class="featured-block">
-	{{ if .Get "img" }}
-	<div class="image-container">
-		<img src="{{ .Get "img" }}" alt="card-image">
-	</div>
-	{{ end }}
+{{ with .Site.GetPage (.Get "pagepath") }}
+<div class="featured-block">
+	{{ if .Params.images }}
+	<a href="{{ relref . (.File.Path) }}">
+		<div
+			class="image-container"
+			{{- range first 1 .Params.images -}}
+				style="background-image: url({{. | absURL}})"
+			{{- end -}}
+		>
+		</div>
+	</a>
+	{{- end -}}
 	<div class="text">
-		{{ .Inner | markdownify }}
+		<h3><a href="{{ relref . (.File.Path) }}">{{ .Title }}</a></h3>
+		<p>{{ .Description }}</p>
+		{{- with .Params.tags }}
+		<div class="post-info">
+			<p>
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+				{{- range . -}}
+				<span class="tag"><a href="{{ "tags/" | absLangURL }}{{ . | urlize }}">{{.}}</a></span>
+				{{- end }}
+			</p>
+		</div>
+		{{- end }}
 	</div>
-	{{ if .Get "rellink" }}
 	<div class="featured-block-link">
-		<a href="{{ relref . (.Get "rellink") }}">More infos ></a>
+		<a href="{{ relref . (.File.Path) }}">More infos ></a>
 	</div>
-	{{ else if .Get "link" }}
-	<div class="featured-block-link">
-		<a href="{{ .Get "link" }}">More infos ></a>
-	</div>
-	{{ end }}
 </div>
+{{ end }}

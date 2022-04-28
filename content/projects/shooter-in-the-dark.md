@@ -1,12 +1,14 @@
 ---
 title: "Shooter in the Dark"
-date: 2021-04-25T11:28:16-04:00
+date: 2018-12-06
 draft: false
 toc: false
+description: "My first game with Unity, hosted on itch.io (which means you can try it out!)."
 images:
   - images/shooter/shooter-in-the-dark.png
 tags: 
-  - untagged
+  - Unity
+  - Gaming
 ---
 
 ## Shooter in the dark, my first video game
